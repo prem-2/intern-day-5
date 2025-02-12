@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar{
+            background: crimson;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 15px;
+            padding-left: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo img{
+            width: 100px;
+            height: 100px;
+        }
+
+        .list ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: start;
+            color: white;
+            margin: 9px 8px;
+            padding: 3px 5px;
+            font-weight: bold;
+            list-style: none;
+        }
+
+        .list ul li {
+            text-decoration: none;
+            margin: 12px;
+            font-size: 20px;
+            padding: 10px;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+        .list ul li:hover{
+            color: rgb(18, 9, 1);
+        }
+
+        .list{
+            width: 1500px;
+        }
+
+        .support button{
+            padding: 20px;
+            border-radius: 15px;
+            border: none;
+            background-color: #e04949;
+            color: white;
+            font-weight: bold;
+        }
+        .support button:hover{
+            color: rgb(18, 9, 1);
+        }
+        .Pieces{
+            display: none;
+        }
+
+        .list a{
+            text-decoration: none;
+            color: rgb(246, 243, 239);
+        }
+
+        .support a{
+            text-decoration: none;
+            color: rgb(246, 245, 243);
+        }
+        .banner img{
+            width: 2050px;      
+        }
+        .merge{
+            position: relative;
+            margin-top: 20px;
+            
+        }
+
+        .merge-1{
+            z-index: -1;
+            border-radius: 20px;
+            width: 500px;
+        }
+        .merge-2{
+            position: absolute;
+            z-index: 1;
+            top: 100px;
+            left: 250px;
+            border-radius: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="download.png" alt="">
+        </div>
+
+        <div class="list">
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li class="drop down">
+                    <a href="#">Cashews</a>
+                        <div class="Pieces">
+                            <a href="#">2 Pieces</a>
+                            <a href="#">4 Pieces</a>
+                            <a href="#">Mix</a>
+                            <a href="#">Bits</a>
+                        </div>
+                </li>
+
+                <li><a href="#">Nurition</a></li>
+                <li><a href="#">Recipt with Cashews</a></li>
+            </ul>
+        </div>
+
+        <div class="support">
+            <button><a href="#">Contact</a></button>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="xorganic-cashew-pieces-slider.jpg.pagespeed.ic.IzORqb4ZVY.webp" alt="">
+    </div>
+    <div>
+      <div class="merge">
+        <img class="merge-2" src="photo-1627820752174-acae1b399128.avif" alt="">
+        <img class="merge-1" src="istockphoto-1200223468-2048x2048.jpg" alt="">
+    </div>
+    
+</div>
+</body>
+</html>
